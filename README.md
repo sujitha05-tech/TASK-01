@@ -1,6 +1,6 @@
 
 
-### HTML, CSS, and JavaScript Combined Weather Forecast App
+### HTML, CSS, and JavaScript  Weather Forecast App
 
 ```html
 <!DOCTYPE html>
