@@ -104,26 +104,4 @@
 </html>
 ```
 
-### Explanation:
-
-1. **HTML Structure**:
-    - A `div` with the class `weather-container` contains the entire app.
-    - Inside it, an `h2` tag for the title, an `input-container` for the city input and "Get Weather" button, and a `weather-info` section to display weather data.
-
-2. **CSS Styling**:
-    - The body is styled to center the content vertically and horizontally with a light background.
-    - The `.weather-container` is styled with padding, a white background, rounded corners, and a shadow for a card-like appearance.
-    - The input field and button are styled for better appearance and usability.
-    - The `.weather-info` section is initially hidden and only displayed when valid data is retrieved.
-
-3. **JavaScript Functionality**:
-    - `getWeather()`: This asynchronous function fetches weather data from the OpenWeatherMap API based on the city entered by the user. It then updates the DOM elements with the fetched data and displays the `weather-info` section. If the city is not found, it alerts the user and hides the `weather-info` section.
-
-### Usage:
-
-1. Replace `'YOUR_API_KEY'` with your actual OpenWeatherMap API key.
-2. Open the HTML file in a web browser.
-3. Enter a city name and click "Get Weather" to see the current weather for that city.
-
-This simple weather forecast application demonstrates how HTML, CSS, and JavaScript can be combined to create a functional web application that interacts with a public API to fetch and display data dynamically.
 
